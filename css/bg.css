@@ -1,0 +1,381 @@
+*{margin:0;padding:0;}
+.t-login {
+			width: 100vw;
+			height: 100vh;
+			margin: 0 auto;
+			    font-size: 13px;
+			color: #000
+		}
+		.t-login .t-b {
+			text-align: center;
+			    font-size: 23px;
+			    color: #fff;
+			    padding:50px 0 40px 0;
+				font-weight: 300;
+		}
+		.t-login input {
+			width: 100%;
+			height: 45px;
+			line-height: 45px;
+			background-color: rgba(255,255,255, 0.2);
+			font-size: 14px;
+			border-radius: 25px;
+			
+			border-width: 0px;
+			border-style: inset;
+			color: #FFFFFF;
+			
+			
+		}
+		.t-login .t-a1 input {
+			
+			padding: 0 5px 0 70px;
+			
+		}
+		input::-webkit-input-placeholder{
+			color:#FFFFFF;
+		}
+		.cl {
+			zoom: 1
+		}
+		.t-login .t-a {
+			position: relative
+		}
+		.t-login .t-a1 span{
+			    color: #FFFFFF;
+			    height: 20px;
+			    position: absolute;
+			    left: 20px;
+			    top: 14px;
+			    border-right: 1px solid #dedede;
+			    padding-right: 10px;
+		}
+		.t-login .t-c{
+		    position: absolute;
+		    right: 10px;
+		    top: 10px;
+		    background: #000;
+		    color: #fff;
+		    font-size: 11px;
+		    border-radius: 24px;
+		    height: 24px;
+		    line-height: 24px;
+		    padding: 0 12px;
+		}
+		.t-login .t-d{
+		    text-align: center;
+		    color: #999;
+		   font-size: 10px;
+		}
+		.t-login button{
+			margin-top: 30px;
+			    position: relative;
+			    display: block;
+			    margin-left: auto;
+			    margin-right: auto;
+			    padding-left: 14px;
+			    padding-right: 14px;
+			    box-sizing: border-box;
+				    text-align: center;
+					text-decoration: none;
+					    overflow: hidden;
+					    cursor: pointer;
+		    font-size: 13px;
+		    background: #ff6600;
+		    color: #fff;
+		    height: 43px;
+		    border: 0;
+		    border-radius: 24px;
+			width: 100%;
+		}
+		.t-login .t-f{
+		    text-align: center;
+		    margin: 38px 0 0 0;
+		    color: #666;
+		}
+		.t-login .t-f span{
+		   
+			    margin-left: 3px;
+			    color: #999;
+		}
+		.t-login .t-e{
+			color: #999;
+		    text-align: center;
+		    width: 85%;
+		    left: auto;
+		    
+		    right: auto;
+			position: absolute;
+			bottom: 2vh;
+			
+		}
+		.t-login .t-g{
+		    float: left;
+		    width: 33.3%;
+			margin-bottom: 20px;
+		}
+		.t-login .t-e img{
+			
+		    width:45px;
+		    height: 45px;
+			display: inline-block;
+			    overflow: hidden;
+			    position: relative;
+		}
+		fieldset{border: none;font-size: 8px;  border-top: 1px #999 solid;text-align: center;margin: auto;}
+		legend{padding: 0 10px;font-size: 12px;color: #999;}
+
+.slideshow {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  
+}
+.mui-content{
+	position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  -webkit-transform: translate3d(-50%, -50%, 0);
+	          transform: translate3d(-50%, -50%, 0);
+	  z-index: 99;
+	  text-align: center;
+	  font-family: Raleway, sans-serif;
+	  font-weight: 300;
+	  text-transform: uppercase;
+	  background-color: rgba(0, 0, 0, 0.7);
+	  box-shadow: 0 1em 2em -1em rgba(0, 0, 0, 0.5);
+	  
+	  line-height: 1.5;
+}
+.slideshow-image {
+	background: rgba(0, 0, 0, .5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: no-repeat 50% 50%;
+  background-size: cover;
+  -webkit-animation-name: kenburns;
+          animation-name: kenburns;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-duration: 16s;
+          animation-duration: 16s;
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.slideshow-image:nth-child(1) {
+  -webkit-animation-name: kenburns-1;
+          animation-name: kenburns-1;
+  z-index: 3;
+}
+.slideshow-image:nth-child(2) {
+  -webkit-animation-name: kenburns-2;
+          animation-name: kenburns-2;
+  z-index: 2;
+}
+.slideshow-image:nth-child(3) {
+  -webkit-animation-name: kenburns-3;
+          animation-name: kenburns-3;
+  z-index: 1;
+}
+.slideshow-image:nth-child(4) {
+  -webkit-animation-name: kenburns-4;
+          animation-name: kenburns-4;
+  z-index: 0;
+}
+
+@-webkit-keyframes kenburns-1 {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  1.5625% {
+    opacity: 1;
+  }
+  23.4375% {
+    opacity: 1;
+  }
+  26.5625% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  98.4375% {
+    opacity: 0;
+    -webkit-transform: scale(1.21176);
+            transform: scale(1.21176);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes kenburns-1 {
+  0% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  1.5625% {
+    opacity: 1;
+  }
+  23.4375% {
+    opacity: 1;
+  }
+  26.5625% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  98.4375% {
+    opacity: 0;
+    -webkit-transform: scale(1.21176);
+            transform: scale(1.21176);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes kenburns-2 {
+  23.4375% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  26.5625% {
+    opacity: 1;
+  }
+  48.4375% {
+    opacity: 1;
+  }
+  51.5625% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+@keyframes kenburns-2 {
+  23.4375% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  26.5625% {
+    opacity: 1;
+  }
+  48.4375% {
+    opacity: 1;
+  }
+  51.5625% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+@-webkit-keyframes kenburns-3 {
+  48.4375% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  51.5625% {
+    opacity: 1;
+  }
+  73.4375% {
+    opacity: 1;
+  }
+  76.5625% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+@keyframes kenburns-3 {
+  48.4375% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  51.5625% {
+    opacity: 1;
+  }
+  73.4375% {
+    opacity: 1;
+  }
+  76.5625% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+@-webkit-keyframes kenburns-4 {
+  73.4375% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  76.5625% {
+    opacity: 1;
+  }
+  98.4375% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes kenburns-4 {
+  73.4375% {
+    opacity: 1;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  76.5625% {
+    opacity: 1;
+  }
+  98.4375% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}

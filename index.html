@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title></title>
+	<script src="js/mui.min.js"></script>
+	<script src="js/jq.js"></script>
+	<link href="css/mui.css" rel="stylesheet" />
+	<link href="css/bg.css" rel="stylesheet" />
+</head>
+
+<body >
+	
+	<div class="mui-content">
+		<div class="t-login">
+			<div style="width: 85%;margin: 0 auto;">
+				<div class="t-b">小怪獸</div>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				
+				<form class="cl">
+					<div class="t-a">
+						<input type="number" name="phone" placeholder="請輸入電話號碼" oninput="if(value.length>11)value=value.slice(0,11)" id="phone_number"/>
+					</div>
+				
+					<div class="t-a">
+						<input type="text" name="phone" placeholder="請輸入邀請碼" id="invite_code"/>
+						<div class="t-c" id="codebtn"><span id="getcode"><span style="color:red">獲取驗證碼</span></div>
+					</div>
+					
+				
+						
+						
+					
+					<div class="t-d">* 請獲取驗證碼使用手機登錄以驗證您不是機器人!</div>
+					
+				</form>
+				<div class="t-e cl">
+					
+
+					<div class="t-g" id="bind">
+						<img src="images/fb.png" />
+					</div>
+					<div class="t-g" id="bind">
+						<img src="images/line.jpg" />
+					</div>
+					<div class="t-g" id="bind">
+						<img src="images/whats.png" />
+					</div>
+
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<div class="slideshow">
+		<div class="slideshow-image" style="background-image: url('images/7.jpg')"></div>
+		<div class="slideshow-image" style="background-image: url('images/8.jpg')"></div>
+		<div class="slideshow-image" style="background-image: url('images/9.jpg')"></div>
+		<div class="slideshow-image" style="background-image: url('images/10.jpg')"></div>
+		<div class="slideshow-image" style="background-image: url('images/11.jpg')"></div>
+		<div class="slideshow-image" style="background-image: url('images/6.jpg')"></div>
+	</div>
+<script type="text/javascript" src="./script/api.js"></script>
+<script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="./js/dd.js"></script>
+</body>
+</html>
